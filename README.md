@@ -6,20 +6,46 @@ Please fill out the following fields with your information:
 
 <form action="action_page.php">
   <div class="container">
-    <h1>Register</h1>
+    <h1>Income tax calculator</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-    <label for="email"><b>Email</b></label>
+    <label for="email"><b>Monthly gross income</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+    <label for="jan"><b>January</b></label>
+    <input placeholder="Enter tax-free allowance" name="jan" id="jan" required>
+    <br>
+    <label for="feb"><b>February</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>February</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>March</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>April</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>May</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>June</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>July</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>August</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>September</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
+    <label for="feb"><b>October</b></label>
+    <input placeholder="Enter tax-free allowance" name="feb" id="feb" required>
+    <br>
     <hr>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
+    <button type="submit" class="registerbtn">Calculate IIT</button>
   </div>
 </form>
